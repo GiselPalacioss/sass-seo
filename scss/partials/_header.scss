@@ -1,0 +1,32 @@
+@import "../variables/variables";
+@import "../sass2/mixins";
+
+header{
+    @include estilo-header
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+$color: burlywood;
+body{
+    background-color: $color;
+}
+header{
+    background-color: cadetblue;
+    padding: 20px;
+    nav{
+        text-align:end;
+        a{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            padding: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            color: $color;
+            &:hover{
+                color: black;
+            }
+        }
+    }
+}

@@ -1,0 +1,6 @@
+@import "../variables/variables";
+
+@mixin estilo-header{
+    background-color: $color-fondo;
+    padding: $size;
+}
